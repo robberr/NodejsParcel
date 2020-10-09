@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-parcel",
+  "version": "0.0.0",
+  "description": "NodejsParcel",
+  "main": "server.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "pro": "parcel build src/index.html"
+  },
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.27.0"
+  }
+}
